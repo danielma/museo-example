@@ -1,0 +1,14 @@
+<div class="product">
+  <strong><%= product.name %></strong>
+  <% unless product.discounted? %>
+    <div>
+      Price: <%= number_to_currency product.price %>
+    </div>
+  <% else %>
+    <div>
+      Price: <strike><%= number_to_currency product.price %></strike>
+      <%= number_to_currency product.discounted_price %>
+    </div>
+    <div><%= product.discount_percentage %><sup>%</sup> off!</div>
+  <% end %>
+</div>

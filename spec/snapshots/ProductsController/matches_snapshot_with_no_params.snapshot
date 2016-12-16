@@ -1,0 +1,25 @@
+<!-- content_for layout -->
+
+<h1 class="title">Products</h1>
+
+<hr />
+
+<div class="product">
+  <strong>Westworld Season 1 Blu-Ray</strong>
+    <div>
+      Price: <strike>$40.00</strike>
+      $36.00
+    </div>
+    <div>10<sup>%</sup> off!</div>
+</div>
+<div class="product">
+  <strong>1 Week in Samurai World</strong>
+    <div>
+      Price: $280,000.00
+    </div>
+</div>
+
+
+
+<!-- end layout -->
+
